@@ -29,7 +29,7 @@ It sets up the basics for a home server, including SSH, firewall rules, Tailscal
 Run this on a fresh Ubuntu Server:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AmirIqbal1/ubuntu-server-bootstrap/main/server-bootstrap.sh -o server-bootstrap.sh
+curl -fsSL https://raw.githubusercontent.com/AmirIqbal1/ubuntu-server-bootstrap/refs/heads/main/server-bootstrap.sh -o server-bootstrap.sh
 chmod +x server-bootstrap.sh
 ./server-bootstrap.sh
 ```
@@ -106,5 +106,3 @@ Expected SSH rule:
 ```text
 22/tcp ALLOW Anywhere
 ```
-
-Keep the bootstrap script boring and stable. Use it only for base server setup.
